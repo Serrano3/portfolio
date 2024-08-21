@@ -44,6 +44,8 @@ talk about the three options
 - **xxxx:** xxxx.
 - **xxxx:** xxxx.
 - **xxxx:** xxxx
+- **Graphics Rendering:** Utilized OpenGL in C++ to render the torus in a vivid 3D space.
+- **User Interaction:** Allowed users from the terminal to customize the size and color of torus.
 
 #### **result**
 ![Demo Of Wordle](assets/img/TorusP.PNG) 
