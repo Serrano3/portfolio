@@ -28,7 +28,7 @@
 ![](assets/img/WD1.PNG) 
 
 - **Reveal**
-  -     This option obtains the encrypted word from word.txt and is deciphered followed by outputting to the player 
+  -     This option obtains the encrypted word from word.txt and is deciphered followed by outputting the word to the player 
 - **Change**
   -     This option takes the players word and enciphers it followed by over-writing the existing word in word.txt   
 - **Launch**
