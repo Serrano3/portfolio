@@ -7,11 +7,11 @@
 
 - Contains three parts: main.cpp, setup.h, word.txt
 
-  **main.cpp**
-  -     Switch case is used to decide path and this file contains instruction for encyrption and decrypiton
-  **setup.h**
-  -     The game is organized by Classes and regulated by the Constructor that performs necessary structuring logic and loops 
-  **word.txt**
+- **main.cpp**
+  -     Switch case is used to decide path and this file contains instruction for encyrption and decrypiton 
+- **setup.h**
+  -     The game is organized by Classes and regulated by the Constructor that performs necessary structuring logic and loops   
+- **word.txt**
   -     contains the word that the player is trying to figure out and is encyrpted using the technique of repositioning
 
 #### **Technical Details**
@@ -63,18 +63,32 @@ The valid letters are highlight one of two colors to indicate the following.
 ![](assets/img/TorusG.PNG) 
 
 #### **Project Overview**
-- A combination of C++ and Assembly (x86_64) used to create graph a Torus.
+
 - Contains three parts: torus.cpp, a10procs.asm, makefile
-- allows the construction a various size and color Torus 
+
+- **torus.cpp**
+  -     This file includes everything necessary to initialize OpenGL and calls necessary functions from the assembly file
+- **a10procs.asm**
+  -     Read's the user's input from the command line to ensure all values are valid then calcuates the requested variables by the .cpp file
+- **makefile**
+  -     This makefile performs the neccesary steps to properly compile the .asm file to be able to run the program
+
+
 
 #### **Technical Details**
-- **xxxx:** xxxx.
-- **xxxx:** xxxx.
-- **xxxx:** xxxx
-- **Graphics Rendering:** Utilized OpenGL in C++ to render the torus in a vivid 3D space.
-- **User Interaction:** Allowed users from the terminal to customize the size and color of torus.
 
-#### **result**
+- Linix enviroment with appropriate hardware or emulator designed to handle Assembly (x86_64)
+- Functions: Pass-by-Value and Pass-by-Reference with Return types
+- Understanding of Registers and handling differnt data types
+- Understanding of CLA and converting string to integer
+- Understand Standard Calling Conventions
+- The installation of openGL
+
+#### **Command Line Arguments from Terminal **
+
+xx Need image here xx
+
+#### **Result**
 ![Demo Of Wordle](assets/img/TorusP.PNG) 
 
 #### **Outline of Code**
