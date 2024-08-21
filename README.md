@@ -4,25 +4,52 @@
 ![](assets/img/WD0.PNG) 
 
 #### **Project Overview**
-- A C++ project inspired by the popular Wordle game.
+
 - Contains three parts: main.cpp, setup.h, word.txt
-- Flexible gameplay allows players to solve words of any length and change immediately for easy replayability.
-- **Performance Optimization:** limits the usage of loops by apply hashmaps and other techniques.
+
+  **main.cpp**
+  -     Switch case is used to decide path and this file contains instruction for encyrption and decrypiton
+  **setup.h**
+  -     The game is organized by Classes and regulated by the Constructor that performs necessary structuring logic and loops 
+  **word.txt**
+  -     contains the word that the player is trying to figure out and is encyrpted using the technique of repositioning
 
 #### **Technical Details**
+
+- Classes Using Inheritance and Public, Private and Protected
+- Functions: Pass-by-Value and Pass-by-Reference with Return types
+- Input and Output File-Stream
+- Specialized Loops
+- Switch Expression
+- Header Files
+
+#### **Main Menu**
+
 ![](assets/img/WD1.PNG) 
 
-talk about the three options
-
 - **Reveal**
-**Decryption:** Implements encryption of the word so you can't solve the game by opening the word.txt file.
+  -     This option obtains the encrypted word from word.txt and is deciphered followed by outputing to the player 
 - **Change**
-**Encryption:** Implements encryption of the word so you can't solve the game by opening the word.txt file.
+  -     This option takes the players word and enciphers it followed by over-writing the exisiting word in word.txt   
 - **Launch**
-**Inheritance:** xxxx
+  -     This option deciphers word and uses the class constructer to perform a series of task to start the game
 
-#### **result**
+#### **demonstration**
+
+The header contains the instruction of game and the following is demonstration of the game.
+
 ![Demo Of Wordle](assets/img/WD4.PNG) 
+
+After each attempt the list of letters at the top will removes the letters that are not in the word you are attempting figure out. 
+The valid letters are highlight one of two colors to indicate the following. 
+
+- **Green**
+  -     That all of the letter have been placed in the correction position of the word you are attempting to figure out 
+- **yellow**
+  (Has two meanings)
+  
+  -     1.) A valid letter was correctly placed however not all of this letter have been found in the word
+  -     2.) The letter is not in the correction position but it is in fact necessary to complete the word  
 
 #### **Outline of Code**
 ![](assets/img/W1.PNG) 
