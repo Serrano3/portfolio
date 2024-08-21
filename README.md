@@ -73,8 +73,6 @@ The valid letters are highlight one of two colors to indicate the following.
 - **makefile**
   -     This makefile performs the neccesary steps to properly compile the .asm file to be able to run the program
 
-
-
 #### **Technical Details**
 
 - Linix enviroment with appropriate hardware or emulator designed to handle Assembly (x86_64)
@@ -84,12 +82,40 @@ The valid letters are highlight one of two colors to indicate the following.
 - Understand Standard Calling Conventions
 - The installation of openGL
 
-#### **Command Line Arguments from Terminal **
+#### **Command Line Arguments from Terminal**
 
-xx Need image here xx
+![](assets/img/TorusPCLA.PNG) 
+
+The arguments listed above can be briefly explained below
+
+- **./torus**
+  -     Operation to execute the compiled code torus
+- **-r1**
+  -     Label for the radius of the major circle
+- **40**
+  -     Initalizes the radius of the major circle to this value
+- **-r2**
+  -     Label for the radius of the minor circle
+- **7**
+  -     Initalizes the radius of the minor circle to this value
+- **-h**
+  -     Label for the window height of the torus
+- **800**
+  -     Initalizes the window height of the torus to this value
+- **-w**
+  -     Label for the window width of the torus
+- **800**
+  -     Initalizes the window width of the torus to this value
+- **-cl**
+  -     Label for the color of the torus of the torus
+- **21664283**
+  -     Initalizes the color of the torus to this value
 
 #### **Result**
-![Demo Of Wordle](assets/img/TorusP.PNG) 
+
+The Command Line Arguments illustrates the following struture    
+
+![](assets/img/TorusP.PNG) 
 
 #### **Outline of Code**
 ![](assets/img/T1.PNG) 
