@@ -8,11 +8,11 @@
 - Contains three parts: main.cpp, setup.h, word.txt
 
 - **main.cpp**
-  -     Switch case is used to decide path and this file contains instruction for encyrption and decrypiton 
+  -     Switch case is used to decide path and this file contains instruction for encryption and encryption  
 - **setup.h**
   -     The game is organized by Classes and regulated by the Constructor that performs necessary structuring logic and loops   
 - **word.txt**
-  -     contains the word that the player is trying to figure out and is encyrpted using the technique of repositioning
+  -     contains the word that the player is trying to figure out and is encrypted using the technique of repositioning
 
 #### **Technical Details**
 
@@ -28,28 +28,28 @@
 ![](assets/img/WD1.PNG) 
 
 - **Reveal**
-  -     This option obtains the encrypted word from word.txt and is deciphered followed by outputing to the player 
+  -     This option obtains the encrypted word from word.txt and is deciphered followed by outputting to the player 
 - **Change**
-  -     This option takes the players word and enciphers it followed by over-writing the exisiting word in word.txt   
+  -     This option takes the players word and enciphers it followed by over-writing the existing word in word.txt   
 - **Launch**
   -     This option deciphers word and uses the class constructer to perform a series of task to start the game
 
 #### **demonstration**
 
-The header contains the instruction of game and the following is demonstration of the game.
+The header contains the instructions for the game and the following is a demonstration of the game.
 
 ![Demo Of Wordle](assets/img/WD4.PNG) 
 
-After each attempt the list of letters at the top will removes the letters that are not in the word you are attempting figure out. 
-The valid letters are highlight one of two colors to indicate the following. 
+After each attempt the list of letters at the top will remove the letters that are not in the word you are attempting to figure out. 
+The valid letters are highlighted in one of two colors to indicate the following. 
 
 - **Green**
-  -     That all of the letter have been placed in the correction position of the word you are attempting to figure out 
+  -     That all the letters have been placed in the correction position of the word you are attempting to figure out 
 - **yellow**
   (Has two meanings)
   
-  -     1.) A valid letter was correctly placed however not all of this letter have been found in the word
-  -     2.) The letter is not in the correction position but it is in fact necessary to complete the word  
+  -     1.) A valid letter was correctly placed, however not all letters have been found in the word
+  -     2.) The letter is not in the correction position, but it is in fact necessary to complete the word  
 
 #### **Outline of Code**
 ![](assets/img/W1.PNG) 
@@ -69,51 +69,51 @@ The valid letters are highlight one of two colors to indicate the following.
 - **torus.cpp**
   -     This file includes everything necessary to initialize OpenGL and calls necessary functions from the assembly file
 - **a10procs.asm**
-  -     Read's the user's input from the command line to ensure all values are valid then calcuates the requested variables by the .cpp file
+  -     Read's the user's input from the command line to ensure all values are valid then calculate the requested variables by the .cpp file
 - **makefile**
-  -     This makefile performs the neccesary steps to properly compile the .asm file to be able to run the program
+  -     This makefile performs the necessary steps to properly compile the .asm file to be able to run the program
 
 #### **Technical Details**
 
-- Linix enviroment with appropriate hardware or emulator designed to handle Assembly (x86_64)
+- Linux environment with appropriate hardware or emulator designed to manage Assembly (x86_64)
 - Functions: Pass-by-Value and Pass-by-Reference with Return types
-- Understanding of Registers and handling differnt data types
+- Understanding of Registers and managing different data types
 - Understanding of CLA and converting string to integer
 - Understand Standard Calling Conventions
-- The installation of openGL
+- The installation of OpenGL
 
 #### **Command Line Arguments from Terminal**
 
 ![](assets/img/TorusPCLA.PNG) 
 
-The arguments listed above can be briefly explained below
+The arguments listed above can be briefly explained below.
 
 - **./torus**
   -     Operation to execute the compiled code torus
 - **-r1**
   -     Label for the radius of the major circle
 - **40**
-  -     Initalizes the radius of the major circle to this value
+  -     Initialize the radius of the major circle to this value
 - **-r2**
   -     Label for the radius of the minor circle
 - **7**
-  -     Initalizes the radius of the minor circle to this value
+  -     Initialize the radius of the minor circle to this value
 - **-h**
   -     Label for the window height of the torus
 - **800**
-  -     Initalizes the window height of the torus to this value
+  -     Initialize the window height of the torus to this value
 - **-w**
   -     Label for the window width of the torus
 - **800**
-  -     Initalizes the window width of the torus to this value
+  -     Initialize the window width of the torus to this value
 - **-cl**
   -     Label for the color of the torus of the torus
 - **21664283**
-  -     Initalizes the color of the torus to this value
+  -     Initialize the color of the torus to this value
 
 #### **Result**
 
-The Command Line Arguments illustrates the following struture    
+The Command Line Arguments illustrates the following structure.        
 
 ![](assets/img/TorusP.PNG) 
 
