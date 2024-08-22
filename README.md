@@ -8,7 +8,7 @@
 - Contains three parts: main.cpp, setup.h, word.txt
 
 - **main.cpp**
-  -     Switch case is used to decide path and this file contains instruction for encryption and encryption  
+  -     Switch case is used to decide path and this file contains instruction for encryption and decryption  
 - **setup.h**
   -     The game is organized by Classes and regulated by the Constructor that performs necessary structuring logic and loops   
 - **word.txt**
@@ -107,7 +107,7 @@ The arguments listed above can be briefly explained below.
 - **800**
   -     Initialize the window width of the torus to this value
 - **-cl**
-  -     Label for the color of the torus of the torus
+  -     Label for the color of the torus
 - **21664283**
   -     Initialize the color of the torus to this value
 
